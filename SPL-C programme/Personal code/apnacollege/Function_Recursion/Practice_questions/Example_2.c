@@ -11,10 +11,10 @@ int main(){
     scanf("%c", &ch);
 
     if(ch == 'I'){
-        printf("Namaste\n");
+        namaste();
     }
-    else{
-        printf("Bonjour.\n");
+    else if(ch == 'F'){
+        bonjour();
     }
 return 0;    
 }
@@ -23,6 +23,6 @@ return 0;
 void namaste(){
     printf("Namaste.\n");
 }
-void bjour(){
+void bonjour(){
     printf("Bonjour\n");
 }

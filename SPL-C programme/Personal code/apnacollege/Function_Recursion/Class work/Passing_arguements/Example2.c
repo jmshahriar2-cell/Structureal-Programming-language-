@@ -18,6 +18,6 @@ int main(){
 }
 
 //function definition
-int sum(int a, int b){
-    return a+b;
+int sum(int x, int y){
+    return x + y;
 }
