@@ -18,7 +18,7 @@ int main(){
 
     printf("Enter the length and width of rectangle: ");
     scanf("%f", "%f", &a, &b);
-    printf("The area of the rectangle is: %.2f\n", rectanglearea(a, b));
+    printf("The area of the rectangle is: %.2f\n", rectanglearea(a,b));
 
 
 return 0;
