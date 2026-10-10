@@ -3,6 +3,11 @@ int main(){
     int n,i = 1;
     printf("Enter your number: ");
     scanf("%d", &n);
+
+    // do{
+    //     do something
+    // }while(condition);
+
     do{
         printf("%d\n",n * i);
         i++;
